@@ -1,0 +1,9 @@
+@mixin themeColor($var, $light, $dark){
+  :root {
+    #{$val}: $light;
+  }
+  
+  html[data-theme^='dark'], [data-theme^='dark'] {
+    #{$val}: $dark;
+  }
+}

@@ -1,0 +1,11 @@
+
+@include theme-color(--border-set, 'red', 'yellow');
+
+.child {
+  width: 500px;
+  height: 300px;
+  background: var(--color);
+  font-size: var(--font-size);
+  color: var(--font-color);
+  border: var(--border-set) 10px solid;
+}

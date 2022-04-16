@@ -1,0 +1,51 @@
+.progress-circle,
+.percent-circle {
+  position: relative;
+  display: block;
+  width: 3em;
+  height: 3em;
+  pointer-events: none;
+  background-color: #eee;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+svg {
+  display: block;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: translate .3s linear;
+  fill: currentColor;
+}
+
+circle {
+  fill: transparent;
+  stroke: red;
+  stroke-width: 3px;
+  stroke-dasharray: 138;
+  stroke-dashoffset: 138;
+}
+
+span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.percent-circle circle {
+  transition: stroke-dashoffset 2.25s linear;
+}
+
+#percent1 {
+  font-size: 3rem;
+}
+
+#percent2 {
+  font-size: 1.5rem;
+}
+
+#percent3 {
+  font-size: 1rem;
+}

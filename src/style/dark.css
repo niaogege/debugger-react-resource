@@ -1,0 +1,5 @@
+:root[data-theme^="dark"] {
+  --color: rgb(58, 56, 56);
+  --font-size: 14px;
+  --font-color: #fff;
+}
