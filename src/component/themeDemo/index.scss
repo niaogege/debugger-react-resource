@@ -1,5 +1,5 @@
-
-@include theme-color(--border-set, 'red', 'yellow');
+@import '../../style/mixin/color.scss';
+@include theme-color(--border-set, 10px solid #c9c9c9, 20px dashed #666666);
 
 .child {
   width: 500px;
@@ -7,5 +7,5 @@
   background: var(--color);
   font-size: var(--font-size);
   color: var(--font-color);
-  border: var(--border-set) 10px solid;
+  border: var(--border-set) ;
 }

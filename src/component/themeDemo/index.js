@@ -5,7 +5,7 @@ import './index.scss'
  * @Author: Chendapeng
  * @Date: 2022-03-09 19:09:16
  * @LastEditors: Chendapeng
- * @LastEditTime: 2022-04-16 22:11:39
+ * @LastEditTime: 2022-04-17 17:38:14
  * @Description: 
  */
 const Child = ({
@@ -18,7 +18,6 @@ const Child = ({
     className="child"
     style={{
       margin: '10px auto',
-      border: '1px solid red',
     }}
     >
       {theme} --- child {isHovering ? 'inner' : 'out'}
