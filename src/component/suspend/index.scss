@@ -1,0 +1,38 @@
+.child-demo {
+  background: #fff;  /* 给元素设置了背景色#333 */
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid red;
+  position: relative;
+  .childs {
+    position: absolute;
+    inset: 0;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-inline: auto;
+    margin-block: auto;
+  }
+}
+.child2 {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  .child2s {
+    position: absolute;
+    inset: 0;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 0 solid transparent; // 鼠标移出移进都会有过渡效果
+    box-sizing: border-box;
+    transition: border 1s linear;
+    margin-inline: auto;
+    margin-block: auto;
+    &:hover {
+      border: 4px solid red
+    }
+  }
+}
