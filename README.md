@@ -1,11 +1,3 @@
----
-title: react debugger 源码调试
-order: 0
-group:
-  title: react生态
-  order: 0
----
-
 膜拜[react 源码调试](https://mp.weixin.qq.com/s/Yfmb11mmvfXg2FlEu7UlXA)
 
 > 调试 launch.json 的时候，本地记得运行项目在 debugger,不然报错 debugger 不起来
