@@ -12,7 +12,6 @@ class Parent extends Component {
   }
   componentWillUnmount() {
     console.log("parent componentWillUnmount");
-    debugger;
   }
   render() {
     const { children } = this.props;

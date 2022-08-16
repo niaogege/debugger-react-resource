@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ThemeDemo from "../../component/themeDemo";
-// import SuspenseDemo from "../../component/suspend";
+import SuspenseDemo from "../../component/suspend";
 
 export default function Home({ num }) {
   const changeTheme = (e) => {
@@ -20,7 +20,7 @@ export default function Home({ num }) {
       <ThemeDemo num={num} />
       <br />
       <h2>This is debugger</h2>
-      {/* <SuspenseDemo /> */}
+      <SuspenseDemo />
     </div>
   );
 }
